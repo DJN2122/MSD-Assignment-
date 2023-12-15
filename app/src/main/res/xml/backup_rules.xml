@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Sample backup rules file; uncomment and customize as necessary.
+    This file is used to specify rules for Android's auto backup feature.
+    - 'include': specifies what data to include in the backup.
+    - 'exclude': specifies what data to exclude from the backup.
+    See https://developer.android.com/guide/topics/data/autobackup for details.
+    Note: This file is ignored for devices older than API 31.
+    See https://developer.android.com/about/versions/12/backup-restore for more information.
+-->
+<full-backup-content>
+    <!--
+    The <include> and <exclude> tags within <full-backup-content> determine what is backed up.
+
+    <include domain="sharedpref" path=".">
+        This line would include all shared preferences in the backup.
+        The 'domain' attribute specifies the type of data to back up, in this case 'sharedpref' for shared preferences.
+        The 'path' attribute with a value of "." means all files in this domain are included.
+
+    <exclude domain="sharedpref" path="device.xml">
+        This line would exclude the 'device.xml' file from the shared preferences backup.
+        It's useful for omitting files that contain sensitive or non-essential data.
+    -->
+</full-backup-content>

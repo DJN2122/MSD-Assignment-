@@ -1,0 +1,15 @@
+<resources>
+    <string name="add">Add</string>
+    <string name="app_name">Live Diary</string>
+    <string name="back_button">Back Button</string>
+    <string name="color_button">Color Button</string>
+    <string name="done">Done</string>
+    <string name="fab">fab</string>
+    <string name="looking_for">I am looking for...</string>
+    <string name="note_title">Note Title</string>
+    <string name="notice">Live Diary</string>
+    <string name="search_icon">Sreach Icon</string>
+    <string name="uplaoded_image">Uplaoded Image</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="what_s_on_your_mind">What\'s on your mind ?</string>
+</resources>

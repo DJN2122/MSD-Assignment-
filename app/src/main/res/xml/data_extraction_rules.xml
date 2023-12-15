@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Sample data extraction rules file; uncomment and customize as necessary.
+    This file is used to define rules for what data should be included or excluded
+    during cloud backup and device-to-device transfers.
+    See https://developer.android.com/about/versions/12/backup-restore#xml-changes
+    for detailed information and guidelines.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!--
+            Inside the <cloud-backup> tag, you can define rules for what data
+            should be backed up to the cloud and what should be excluded.
+            - <include .../>: Specifies which data (like files, databases, etc.)
+              should be included in the cloud backup.
+            - <exclude .../>: Specifies which data should be excluded from the
+              cloud backup. Useful for omitting sensitive or non-essential data.
+            TODO: Uncomment and specify the paths or domains for inclusion or
+            exclusion as per your app's requirements.
+        -->
+    </cloud-backup>
+
+    <!--
+        The <device-transfer> tag allows you to specify rules for device-to-device
+        data transfers. This can be particularly important when users are switching
+        to a new device and need certain app data to be transferred.
+        - <include .../>: Similar to cloud-backup, specifies which data should be
+          included in the device-to-device transfer.
+        - <exclude .../>: Specifies which data should be excluded from the device
+          transfer.
+        TODO: Uncomment and configure these tags based on what data should be
+        transferred or omitted during device transfers.
+    -->
+    <!--
+    <device-transfer>
+        <include .../>
+        <exclude .../>
+    </device-transfer>
+    -->
+</data-extraction-rules>
